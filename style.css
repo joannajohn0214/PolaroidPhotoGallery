@@ -1,0 +1,57 @@
+body {
+  margin: 2em;
+  background: linear-gradient(to right, #ff99cc, #93ffab,#33ccff, #d467ff);
+}
+
+h1 {
+  color:white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  margin:-10px;
+}
+
+.row-container {
+  display:flex;
+  justify-content:center;
+}
+
+.row {
+  margin:5px;
+}
+/*Code below sourced from w3schools website*/
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.image-container {
+  position: relative;
+  width: 50%;
+  max-width: 210px;
+}
+
+/* Make the image to responsive */
+.image1 .image2 .image3 .image4 .image5 .image6 .image7 .image8 .image9 .image10 .image11 .image12 .image13 .image14 .image15 .image16 .image17 .image18 .image19 .image20 .image21 .image22 .image23 .image24 .image25 .image26 .image27 .image28 .image29 .image30 {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin:5px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  color: black;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  font-family: 'Mansalva', cursive;
+  padding: 20px;
+  text-align: center;
+}
+
+/* seriously WOW!!! I am blown away by this -- avery  */
+/* When you mouse over the container, fade in the overlay title */
+.image-container:hover .overlay {
+  opacity: 1;
+}
